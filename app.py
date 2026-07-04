@@ -23,7 +23,7 @@ outputs_path = os.path.join(os.getcwd(), "outputs")
 os.makedirs(outputs_path, exist_ok=True)
 
 # ── API Key ── AZURE COMPATIBLE (set in Azure App Service > Configuration)
-ANTHROPIC_API_KEY = "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"
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # INITIALISE — cached so it runs once only
