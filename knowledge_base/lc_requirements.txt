@@ -1,0 +1,117 @@
+LETTER OF CREDIT REQUIREMENTS FOR TEXTILE EXPORTS
+==================================================
+
+WHAT IS A LETTER OF CREDIT (LC)?
+---------------------------------
+A Letter of Credit is a bank guarantee that ensures payment
+to the exporter provided all LC terms and document requirements
+are met exactly. Governed by UCP 600 (Uniform Customs and Practice
+for Documentary Credits — ICC Publication 600).
+
+STANDARD DOCUMENTS REQUIRED IN TEXTILE LC SHIPMENTS
+----------------------------------------------------
+1. Commercial Invoice
+   - Must be issued by beneficiary (exporter)
+   - Description must match LC exactly — word for word
+   - Amount must not exceed LC value
+   - Must show LC number and date
+   - Incoterm must match LC terms
+
+2. Full Set of Bill of Lading (3/3 originals)
+   - Made out to order of issuing bank (for negotiation LC)
+   - Marked freight prepaid or freight collect per Incoterm
+   - On board notation required — with vessel name and date
+   - Notify party: usually buyer or their agent
+
+3. Packing List
+   - Must match invoice quantities exactly
+   - Carton numbers, net weight, gross weight, dimensions
+   - Marks and numbers must match BL
+
+4. Certificate of Origin
+   - Issued by Chamber of Commerce (FPCCI, KCCI, LCCI)
+   - Form A for GSP claiming countries
+   - Signed and stamped — original required
+   - Description must match invoice
+
+5. Insurance Certificate (if CIF/CIP terms)
+   - Minimum 110% of invoice value
+   - Institute Cargo Clauses — as specified in LC
+   - Endorsed in blank if required by LC
+   - Must cover port of loading to port of discharge
+
+COMMON LC DISCREPANCIES IN TEXTILE EXPORTS
+-------------------------------------------
+DISCREPANCY 1: Late Presentation
+- Documents presented after LC expiry date
+- Documents presented after presentation period (usually 21 days from BL date)
+- Solution: Ship early — present documents within 7 days of shipment
+
+DISCREPANCY 2: Description Mismatch
+- Invoice description differs from LC description even slightly
+- Example: LC says "100% Cotton Jersey Fabric" — invoice says "Cotton Jersey"
+- Solution: Copy LC description word-for-word onto invoice
+
+DISCREPANCY 3: Short Shipment
+- Quantity shipped less than LC quantity without tolerance clause
+- LC typically allows +/- 5% tolerance on quantity and value
+- Solution: Confirm tolerance clause with buyer before shipment
+
+DISCREPANCY 4: BL Issues
+- BL not marked "on board" — only "received for shipment"
+- BL shows different port than LC
+- BL date after latest shipment date in LC
+- Solution: Confirm vessel booking before issuing BL
+
+DISCREPANCY 5: Certificate of Origin Issues
+- CO description different from invoice
+- CO not authenticated properly
+- Form A errors — wrong GSP code
+- Solution: Prepare CO after invoice is finalised — copy description
+
+DISCREPANCY 6: Insurance Gaps (CIF terms)
+- Insurance value less than 110% of CIF value
+- Wrong clauses — LC requires Clause A, exporter submits Clause C
+- Solution: Always insure for 110% — check LC for clause requirement
+
+DISCREPANCY 7: Missing Documents
+- LC requires inspection certificate — not submitted
+- LC requires beneficiary certificate — not submitted
+- Solution: Read entire LC before shipment — prepare checklist
+
+UCP 600 KEY RULES FOR EXPORTERS
+---------------------------------
+Article 14: Standard for examination of documents
+- Banks have 5 banking days to examine documents
+- Documents must comply on their face with LC terms
+
+Article 16: Discrepant documents
+- Issuing bank must notify discrepancies within 5 banking days
+- Exporter can correct and resubmit within LC validity
+
+Article 20: Bill of Lading requirements
+- Must show name of carrier
+- Must show port of loading and discharge
+- Must be signed by carrier or agent
+- On board notation must show date and vessel name
+
+Article 28: Insurance documents
+- Must be issued by insurance company or underwriter
+- Must be dated no later than BL date
+- Must be in same currency as LC
+
+LC PAYMENT TIMELINE FOR TEXTILE EXPORTS
+-----------------------------------------
+At Sight LC: Payment within 5-7 banking days after document acceptance
+Usance LC (30/60/90 days): Payment after usance period from BL date
+Deferred Payment: Payment on specified future date
+
+TIPS TO AVOID LC REJECTION
+----------------------------
+1. Request a copy of LC draft before it is opened — check all terms
+2. Prepare a document checklist from LC before shipment
+3. Never deviate from LC description on any document
+4. Ship before latest shipment date — allow 7 days for document preparation
+5. Use same units throughout — LC says metres, invoice must say metres
+6. Verify beneficiary name and address matches LC exactly
+7. Check if LC is transferable or not before making any assignments

@@ -1,0 +1,174 @@
+DESTINATION COUNTRY REQUIREMENTS FOR TEXTILE EXPORTS
+======================================================
+
+USA (United States of America)
+-------------------------------
+Required Documents:
+- Commercial Invoice (must show HTS code, country of origin, buyer/seller details)
+- Packing List (carton-wise breakdown mandatory)
+- Bill of Lading or Airway Bill
+- Certificate of Origin (Form A for GSP — USA suspended GSP for Pakistan as of 2013)
+- Customs Bond (handled by US importer)
+- Textile Visa / Export License (for quota categories if applicable)
+- CPSC Compliance Certificate (for children's textile products)
+
+Import Regulations:
+- US Customs and Border Protection (CBP) governs all imports
+- HTS (Harmonized Tariff Schedule) code must be declared
+- Country of Origin must be clearly marked on goods
+- Section 321 de minimis threshold: USD 800
+- Lacey Act compliance for natural fiber products
+- TSCA compliance for technical textiles
+
+HS Code Format: 10-digit HTS code (first 6 digits international)
+GSP Status: Pakistan GSP suspended by USA — no duty preference available
+Standard Duty Rates: Cotton fabrics 7-12% | Knitwear 12-32% | Garments 12-32%
+
+LC Requirements for USA Buyers:
+- UCP 600 governs all LCs
+- Documents must match LC terms exactly
+- Typically requires: Commercial Invoice + Packing List + BL + CO
+
+---
+
+UK (United Kingdom)
+--------------------
+Required Documents:
+- Commercial Invoice (GB EORI number of importer required)
+- Packing List
+- Bill of Lading or Airway Bill
+- Certificate of Origin (Form A — UK GSP applies to Pakistan)
+- UK Customs Declaration (handled by UK importer/agent)
+- UKCA or CE marking (for applicable technical textiles)
+
+Import Regulations:
+- HMRC governs UK imports post-Brexit
+- UK Global Tariff (UKGT) applies
+- UK Generalised Scheme of Preferences (UKGSP) — Pakistan is eligible
+- Enhanced Framework preference under UK DCTS
+- Rules of Origin: substantial transformation in Pakistan required
+- REACH equivalent regulations apply for chemical compliance
+
+HS Code Format: 10-digit UK commodity code
+GSP Status: Pakistan eligible for UK DCTS Enhanced Preferences
+Duty Rates with GSP: Cotton fabrics 0-4% | Knitwear 0-12% | Garments 0-9.6%
+Standard Duty Rates: Cotton fabrics 8-12% | Knitwear 12% | Garments 12%
+
+---
+
+GERMANY (European Union)
+-------------------------
+Required Documents:
+- Commercial Invoice (must include EU buyer VAT number)
+- Packing List
+- Bill of Lading or Airway Bill
+- EUR.1 Movement Certificate OR Statement on Origin (for GSP+)
+- Certificate of Origin (Form A for GSP / GSP+)
+- Customs Declaration SAD (Single Administrative Document)
+- REACH Compliance Declaration (for chemical substances)
+- EUDR Compliance (EU Deforestation Regulation — natural fibers)
+
+Import Regulations:
+- EU Customs Union applies — single entry point for all EU
+- Combined Nomenclature (CN) 8-digit code required
+- EU GSP+ applies to Pakistan — enhanced duty preferences
+- Rules of Origin: sufficient processing in Pakistan
+- REACH Regulation EC 1907/2006 mandatory
+- EU Textile Labelling Regulation 1007/2011
+- Carbon Border Adjustment Mechanism (CBAM) — monitoring phase
+
+HS Code Format: 8-digit CN code (EU Combined Nomenclature)
+GSP Status: Pakistan eligible for EU GSP+ — significant duty reductions
+Duty Rates GSP+: Cotton fabrics 0% | Knitwear 0% | Garments 0-9.6%
+Standard Duty Rates: Cotton fabrics 8% | Knitwear 12% | Garments 12%
+
+---
+
+FRANCE (European Union)
+------------------------
+Same EU customs requirements as Germany.
+Additional French-specific requirements:
+- French language labelling may be required for retail products
+- AGEC Law compliance (anti-waste — textile traceability)
+- French customs code: same CN 8-digit as all EU
+
+---
+
+ITALY (European Union)
+-----------------------
+Same EU customs requirements as Germany.
+Additional Italy-specific requirements:
+- Made in Italy protection — country of origin must be clearly documented
+- Italian buyers often require detailed fabric composition testing reports
+- CONAI packaging compliance for Italian importers
+
+---
+
+UAE (United Arab Emirates)
+---------------------------
+Required Documents:
+- Commercial Invoice (in English and Arabic preferred)
+- Packing List
+- Bill of Lading or Airway Bill
+- Certificate of Origin (attested by Chamber of Commerce + Pakistan Embassy)
+- Customs Declaration (handled by UAE clearing agent)
+- Halal Certificate (if applicable for natural fiber products)
+- Dubai Municipality approval (for certain textile chemicals)
+
+Import Regulations:
+- Federal Customs Authority (FCA) governs UAE imports
+- GCC Common Customs Law applies
+- Standard duty rate: 5% for most textiles
+- No GSP — standard duty applies
+- Country of Origin must be attested and authenticated
+- Free Zone imports (Jebel Ali) have different regulations
+
+HS Code Format: 6-digit HS code (GCC tariff)
+GSP Status: None — standard 5% duty applies
+Standard Duty Rates: Most textiles 5% | Some items 0%
+
+---
+
+SAUDI ARABIA
+------------
+Required Documents:
+- Commercial Invoice (Arabic translation required)
+- Packing List
+- Bill of Lading or Airway Bill
+- Certificate of Origin (authenticated by Chamber + Saudi Embassy)
+- Saudi Standards (SASO) compliance certificate (for certain products)
+- Customs Declaration
+
+Import Regulations:
+- Zakat Tax and Customs Authority (ZATCA) governs
+- GCC Common Customs Law applies
+- Standard duty: 5-15% depending on product
+- Saudization and Vision 2030 import policies
+- SASO product conformity for regulated textile products
+- Halal considerations for animal fiber products
+
+HS Code Format: 6-digit HS code (GCC tariff)
+GSP Status: None
+Standard Duty Rates: Most textiles 5-15%
+
+---
+
+AUSTRALIA
+---------
+Required Documents:
+- Commercial Invoice
+- Packing List
+- Bill of Lading or Airway Bill
+- Certificate of Origin (self-declaration accepted for most)
+- Import Declaration (handled by Australian importer)
+
+Import Regulations:
+- Australian Border Force (ABF) governs imports
+- AIFTA (ASEAN-Australia-NZ FTA) does not include Pakistan
+- No bilateral FTA with Pakistan — standard duty applies
+- Biosecurity requirements for natural fiber products
+- ACCC consumer product safety compliance
+
+HS Code Format: 10-digit Australian Harmonized Code
+GSP Status: Australia GSP (DFAT) — Pakistan eligible for some preferences
+Standard Duty Rates: Most textiles 0-10%

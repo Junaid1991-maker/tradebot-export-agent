@@ -1,0 +1,121 @@
+HS CODES FOR TEXTILE EXPORTS — CHAPTER 50 TO 63
+=================================================
+
+CHAPTER 52 — COTTON
+--------------------
+52.01 — Cotton, not carded or combed
+52.05 — Cotton yarn (single, combed) — not retail
+  5205.11 — Single yarn, uncombed, <= 14 Nm
+  5205.21 — Single yarn, combed, <= 14 Nm
+  5205.31 — Single yarn, combed, 14-43 Nm
+  5205.41 — Single yarn, combed, > 80 Nm
+
+52.08 — Woven cotton fabrics, >= 85% cotton, <= 200 g/m2
+  5208.11 — Plain weave, <= 100 g/m2, unbleached
+  5208.12 — Plain weave, 100-200 g/m2, unbleached
+  5208.21 — Plain weave, <= 100 g/m2, bleached
+  5208.31 — Plain weave, <= 100 g/m2, dyed
+  5208.41 — Plain weave, <= 100 g/m2, yarn-dyed
+  5208.51 — Plain weave, <= 100 g/m2, printed
+
+52.09 — Woven cotton fabrics, >= 85% cotton, > 200 g/m2
+  5209.11 — Plain weave, unbleached (canvas, duck)
+  5209.21 — 3/4 twill weave, unbleached (denim base)
+  5209.31 — Plain weave, dyed
+  5209.41 — Denim (3-thread twill, warp yarn dyed)
+  5209.51 — Plain weave, printed
+
+52.10 — Woven cotton fabrics, < 85% cotton, <= 200 g/m2
+  5210.11 — Plain weave, unbleached
+  5210.31 — Plain weave, dyed
+  5210.51 — Plain weave, printed
+
+52.11 — Woven cotton fabrics, < 85% cotton, > 200 g/m2
+  5211.41 — Denim (blended, warp dyed)
+  5211.43 — Other 3/4 twill weave, dyed
+
+CHAPTER 60 — KNITTED OR CROCHETED FABRICS
+------------------------------------------
+60.01 — Pile fabrics (terry, velour, fleece)
+  6001.10 — Long pile fabrics
+  6001.21 — Looped pile, cotton
+  6001.22 — Looped pile, man-made fibres (fleece)
+  6001.91 — Other pile fabrics, cotton (terry)
+  6001.92 — Other pile fabrics, man-made (polar fleece)
+
+60.06 — Other knitted/crocheted fabrics
+  6006.21 — Woven/knitted, dyed, cotton (jersey)
+  6006.22 — Woven/knitted, dyed, man-made
+  6006.31 — Bleached, cotton
+  6006.32 — Bleached, man-made fibres
+
+SPECIFIC PRODUCT → HS CODE MAPPING
+------------------------------------
+Cotton Jersey Fabric (180 GSM, 100% Cotton) → 6006.21
+Cotton Interlock Fabric → 6006.21
+Cotton Rib Fabric → 6006.21
+Cotton Thermal Fabric → 6001.91
+Cotton Fleece Fabric → 6001.91
+Polyester Fleece Fabric → 6001.92
+Recycled Polyester Fabric (knitted) → 6006.22
+
+Plain Cotton Shirting (<=200 gsm, >=85% cotton) → 5208.31 / 5208.51
+Cotton Poplin (<=200 gsm, >=85% cotton) → 5208.12
+Cotton Lawn / Voile (<=100 gsm) → 5208.11
+Cotton Canvas (>200 gsm, >=85% cotton) → 5209.11
+Cotton Twill (>200 gsm, >=85% cotton) → 5209.31
+Cotton Corduroy (>200 gsm, >=85% cotton) → 5209.31
+Cotton Denim (>=85% cotton) → 5209.41
+Cotton Flannel (>200 gsm, >=85% cotton) → 5209.31
+Cotton Sateen (<=200 gsm) → 5208.31
+Cotton Velvet → 5801.21
+Cotton Muslin → 5208.11
+Cotton Gauze → 5208.11
+Cotton Quilted Fabric → 5811.00
+Linen Cotton Blend (<85% cotton, >200gsm) → 5211.31
+Polyester Cotton Blend (<=200 gsm) → 5210.31
+Viscose Challis → 5407.61
+
+CHAPTER 63 — HOME TEXTILES
+---------------------------
+63.01 — Blankets and travelling rugs
+63.02 — Bed linen, table linen, toilet linen
+  6302.21 — Bed linen, printed, cotton
+  6302.22 — Bed linen, printed, man-made
+  6302.31 — Bed linen, other, cotton (plain/dyed)
+  6302.60 — Toilet/kitchen linen, cotton (towels)
+
+Bed Linen Set (100% Cotton) → 6302.31
+Terry Towels (100% Cotton) → 6302.60
+Bath Robes → 6211.39
+
+CHAPTER 61 — GARMENTS KNITTED
+------------------------------
+61.09 — T-shirts, singlets, other vests
+  6109.10 — T-shirts, cotton
+  6109.90 — T-shirts, other fibres
+
+Men Cotton T-Shirts → 6109.10
+
+CHAPTER 62 — GARMENTS WOVEN
+-----------------------------
+62.11 — Track suits, ski suits, swimwear
+  6211.39 — Other garments, cotton (robes, coveralls)
+
+CHAPTER 61 — HOSIERY
+---------------------
+61.15 — Pantyhose, tights, stockings, socks
+  6115.95 — Socks, cotton
+  6115.96 — Socks, man-made fibres
+
+Cotton Socks → 6115.95
+
+DUTY RATE NOTES
+---------------
+USA HTS rates (MFN): Knitted fabrics 10.3-14.9% | Woven fabrics 7.4-12% | Garments 12-32%
+EU CN rates (MFN): Knitted fabrics 8-12% | Woven fabrics 8% | Garments 12%
+EU GSP+ rates (Pakistan): Most textile categories 0%
+UK UKGT rates: Similar to EU MFN | UK DCTS Pakistan: Reduced rates 0-9.6%
+UAE GCC rates: 5% most textiles
+Saudi Arabia: 5-15%
+Australia: 0-10% (most at 5%)

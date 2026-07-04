@@ -1,0 +1,200 @@
+TEXTILE CERTIFICATION GUIDE FOR EXPORT
+=======================================
+
+OEKO-TEX STANDARD 100
+----------------------
+Full Name: OEKO-TEX Standard 100 — Testing for Harmful Substances
+Issuing Body: OEKO-TEX Association (Switzerland)
+Website: oeko-tex.com
+
+What it certifies:
+- Every component of the textile product tested for harmful substances
+- Covers: pesticides, heavy metals, formaldehyde, pH value, colour fastness
+- Applies to: yarn, fabric, garments, accessories
+
+Test Classes:
+- Class I: Products for babies and toddlers (strictest)
+- Class II: Products worn next to skin
+- Class III: Products not in direct contact with skin (outerwear)
+- Class IV: Furnishing materials
+
+Certificate validity: 12 months — annual renewal required
+Where to test in Pakistan:
+- Intertek Pakistan (Karachi, Lahore, Faisalabad)
+- SGS Pakistan
+- Bureau Veritas Pakistan
+- APTMA-affiliated testing labs
+
+Which buyers require it:
+- Most European buyers (Germany, France, Italy, UK) require OEKO-TEX
+- USA buyers: increasingly required (Target, Walmart, H&M USA)
+- UAE buyers: premium segment buyers
+Cost: USD 500-2,000 depending on product complexity
+Timeline: 4-8 weeks for initial certification
+
+How to attach to export package:
+- Include OEKO-TEX certificate copy in document package
+- State certificate number on commercial invoice (optional but good practice)
+- Buyer may verify online at oeko-tex.com
+
+---
+
+GOTS — GLOBAL ORGANIC TEXTILE STANDARD
+---------------------------------------
+Full Name: Global Organic Textile Standard
+Issuing Body: Global Standard gGmbH (Germany)
+Website: global-standard.org
+
+What it certifies:
+- Organic status of textile fibres (cotton, wool, linen)
+- Processing standards: restricted substances in dyeing, finishing
+- Social criteria: fair labour conditions
+- Chain of custody: from farm to finished product
+
+Requirements:
+- Minimum 70% certified organic fibres (GOTS label "made with organic")
+- Minimum 95% certified organic fibres (GOTS label)
+- Entire supply chain must be GOTS certified
+
+Where to certify in Pakistan:
+- Control Union Pakistan
+- OneCert International
+- CCPB (Italian certifier operating in Pakistan)
+
+Which buyers require it:
+- Patagonia, H&M Conscious, IKEA organic range
+- High-end EU buyers
+- Any buyer claiming "organic" product
+
+Cost: USD 800-3,000 per facility per year
+Timeline: 3-6 months for initial certification
+Important: Cannot claim GOTS without entire supply chain certified
+
+How to attach to export package:
+- GOTS transaction certificate per shipment (issued by certifier)
+- Must accompany each organic shipment
+- Certificate scope and products covered must match shipment
+
+---
+
+GRS — GLOBAL RECYCLED STANDARD
+--------------------------------
+Full Name: Global Recycled Standard
+Issuing Body: Textile Exchange
+Website: textileexchange.org
+
+What it certifies:
+- Recycled content in textile products
+- Chain of custody for recycled materials
+- Minimum 20% recycled content for GRS label use
+- Social and environmental processing requirements
+
+Applicable materials:
+- Recycled polyester (rPET — from plastic bottles)
+- Recycled cotton
+- Recycled nylon
+
+Where to certify in Pakistan:
+- Control Union Pakistan
+- Intertek Pakistan
+- Bureau Veritas Pakistan
+
+Which buyers require it:
+- Primark (GRS mandatory for recycled claims)
+- H&M, Zara (sustainability ranges)
+- Nike, Adidas (recycled polyester products)
+- Any buyer making recycled content claims
+
+Cost: USD 600-2,000 per facility
+Timeline: 2-4 months for certification
+
+How to attach to export package:
+- GRS transaction certificate per shipment
+- Scope certificate of manufacturer
+- Both documents typically required by buyer
+
+---
+
+REACH COMPLIANCE
+-----------------
+Full Name: Registration, Evaluation, Authorisation and Restriction of Chemicals
+Authority: European Chemicals Agency (ECHA)
+Applicable to: All textile products sold in EU market
+
+What it covers:
+- Restriction of hazardous chemicals in textile articles
+- SVHC (Substances of Very High Concern) — list updated regularly
+- AZO dyes restriction (certain AZO dyes banned in EU)
+- Formaldehyde limits
+- Heavy metal limits (lead, cadmium, chromium VI)
+- Nickel in metal accessories
+
+Requirements for Pakistani exporters:
+- Not a direct certification — but buyer compliance requirement
+- Buyer typically requests: REACH compliance declaration OR test report
+- Test report issued by accredited lab (Intertek, SGS, Bureau Veritas)
+- Test standard: EN 14362 (AZO dyes) + REACH restricted substances list
+
+How to attach to export package:
+- REACH test report copy (from accredited lab)
+- REACH compliance declaration (from exporter, based on test results)
+- Valid for: 12 months typically — retest if formulation changes
+
+---
+
+ZDHC MRSL (MANUFACTURING RESTRICTED SUBSTANCE LIST)
+-----------------------------------------------------
+Full Name: Zero Discharge of Hazardous Chemicals — MRSL
+Authority: ZDHC Foundation
+Website: roadmaptozero.com
+
+What it covers:
+- Restricted chemicals used in textile manufacturing processes
+- Dyestuffs, finishing chemicals, auxiliaries
+- Applies to mills and wet processing units
+
+Applicable to: Wet processing units, dye houses, finishing facilities
+Pakistan relevance: Major buyers (H&M, PVH, Levi's) require suppliers to conform
+
+How to demonstrate compliance:
+- InCheck report (ZDHC platform) from chemical supplier
+- Wastewater test report
+- ZDHC Gateway — chemical compliance reporting
+
+Attachment in export package:
+- Not typically a shipment document
+- Provided during buyer onboarding / supplier qualification
+- Referenced in buyer's compliance declaration
+
+---
+
+CERTIFICATION REQUIREMENTS BY BUYER TYPE
+------------------------------------------
+Mass Market (Walmart, Target, Primark):
+- OEKO-TEX Standard 100 (often mandatory)
+- GRS (if recycled content claimed)
+- REACH compliance declaration
+
+Mid-Market (Next, Marks and Spencer, Dunelm):
+- OEKO-TEX Standard 100
+- GOTS (if organic claimed)
+- REACH compliance declaration
+- ZDHC MRSL conformance
+
+Premium/Luxury (Armani, LVMH, Max Mara):
+- OEKO-TEX Standard 100 or equivalent
+- REACH compliance (full testing)
+- Fabric composition testing report
+- Country of origin documentation (very strict)
+
+Sustainability Brands (Patagonia, H&M Conscious):
+- GOTS (for organic) — mandatory
+- GRS (for recycled) — mandatory
+- ZDHC MRSL conformance
+- Fair trade or equivalent social audit
+
+Hospitality/Institutional (Hotels, Hospitals):
+- OEKO-TEX Standard 100 (Class I or II)
+- REACH compliance
+- Colorfastness test report
+- Specific performance test reports

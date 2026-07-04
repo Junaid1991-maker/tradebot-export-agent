@@ -1,0 +1,129 @@
+PAKISTAN EXPORT REGULATIONS FOR TEXTILE EXPORTERS
+===================================================
+
+REGULATORY BODIES
+-----------------
+1. TDAP — Trade Development Authority of Pakistan
+   Role: Export promotion, certification, trade fair support
+   Website: tdap.gov.pk
+   Key services: Export certification, market access support
+
+2. SBP — State Bank of Pakistan
+   Role: Foreign exchange regulation, Form E management
+   Key: All export proceeds must be repatriated within stipulated time
+
+3. FBR — Federal Board of Revenue
+   Role: Tax registration, customs clearance
+   Key requirements: NTN (National Tax Number), STRN (Sales Tax Registration)
+
+4. Pakistan Customs (under FBR)
+   Role: Export clearance, GD (Goods Declaration) processing
+   System: WeBOC (Web Based One Customs) — online GD filing
+
+5. Chambers of Commerce
+   FPCCI — Federation of Pakistan Chambers of Commerce and Industry
+   KCCI — Karachi Chamber of Commerce and Industry
+   LCCI — Lahore Chamber of Commerce and Industry
+   FCCI — Faisalabad Chamber of Commerce and Industry
+   Role: Certificate of Origin issuance, attestation
+
+MANDATORY DOCUMENTS FOR PAKISTAN EXPORTS
+-----------------------------------------
+
+1. NTN — National Tax Number
+   - Mandatory for all exporters
+   - Issued by FBR
+   - Must appear on all export documents
+   - Register at: iris.fbr.gov.pk
+
+2. STRN — Sales Tax Registration Number
+   - Required for registered exporters
+   - Zero-rated sales tax on exports
+   - Must be on commercial invoice
+
+3. Goods Declaration (GD)
+   - Filed electronically on WeBOC system
+   - Must be filed before goods reach port
+   - Examiner may inspect goods physically
+   - GD approval = permission to load
+
+4. Form E — Export Form
+   - SBP requirement for foreign exchange control
+   - Filed with authorised dealer (bank) before shipment
+   - Certifies export proceeds will be repatriated
+   - Must match invoice value exactly
+   - Repatriation period: 180 days from shipment date
+
+5. EIF — Export Invoice Form
+   - Required for invoices above USD 10,000
+   - Bank endorsement required
+   - Must match commercial invoice
+
+CERTIFICATE OF ORIGIN PROCESS IN PAKISTAN
+------------------------------------------
+Step 1: Prepare commercial invoice (finalized)
+Step 2: Apply to relevant Chamber of Commerce
+   - KCCI for Karachi-based exporters
+   - LCCI for Lahore-based exporters
+   - FCCI for Faisalabad-based exporters
+Step 3: Submit: Application form + Invoice + Packing List + GD copy
+Step 4: Chamber verifies and issues CO (same day or next day)
+Step 5: CO signed by Chamber official and stamped
+Step 6: For GSP countries: Form A issued instead of standard CO
+Step 7: For UAE/Saudi: CO requires Embassy attestation
+
+Form A (Generalised System of Preferences)
+- Used for exports to EU, UK, and other GSP-granting countries
+- Must show: exporter name, consignee, origin criteria, gross weight
+- Origin criteria for textiles: "P" (wholly produced) or "W" (sufficient working)
+- Cotton fabric wholly produced in Pakistan = "P"
+- Blended fabric using imported yarn = check rules of origin
+
+TDAP REQUIREMENTS
+-----------------
+- Registration with TDAP for certain export categories
+- TDAP issues: Export certificates, quota certificates (where applicable)
+- Textile specific: TDAP maintains textile export statistics
+- Pre-shipment inspection: Not mandatory for most textiles (removed 2021)
+
+DCCI — DUTY AND TAX REMISSION FOR EXPORTERS
+---------------------------------------------
+DTRE (Duty and Tax Remission for Exports)
+- Allows duty-free import of inputs for export production
+- Must apply to Collector of Customs before import
+- Bond required — cancelled upon export proof submission
+
+DRAWBACK
+- Customs duty drawback available on certain imported inputs
+- Applied after export through WeBOC system
+
+GST ZERO RATING
+---------------
+- All textile exports are zero-rated for GST
+- Export invoice: Zero GST
+- Input GST on purchases is refundable
+- File GST refund claim through IRIS portal
+- Refund typically processed within 60-90 days
+
+PORT PROCEDURES — KARACHI
+---------------------------
+Port Qasim (QICT, PQICT):
+- Main container terminal for textile exports
+- Containers must be at port 48 hours before vessel cut-off
+- GD must be approved before container enters port
+
+Karachi Port Trust (KPT):
+- Older terminal — still used for some shippers
+- Similar procedures to Port Qasim
+
+TIMING FOR DOCUMENTATION
+-------------------------
+D-7: Confirm vessel booking with freight forwarder
+D-5: Finalize commercial invoice and packing list
+D-4: Apply for Certificate of Origin from Chamber
+D-3: File GD on WeBOC
+D-2: Goods delivered to port / stuffing of container
+D-1: GD examination and clearance
+D-0: Vessel departure — BL issued within 24-48 hours
+D+3: BL received — prepare full document set
+D+7: Submit documents to bank (for LC) or courier to buyer (for TT)

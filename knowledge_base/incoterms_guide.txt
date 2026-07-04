@@ -1,0 +1,103 @@
+INCOTERMS 2020 GUIDE FOR TEXTILE EXPORTERS
+===========================================
+
+INCOTERMS 2020 — 11 TERMS EXPLAINED
+
+EXW — Ex Works
+--------------
+Risk transfers: At seller's premises
+Cost responsibility: Buyer pays everything from seller's door
+Documents required: Commercial Invoice, Packing List only
+Textile usage: Rarely used for export — used for domestic or small orders
+Note: Buyer arranges all export clearance — risky for seller
+
+FCA — Free Carrier
+------------------
+Risk transfers: When goods handed to carrier at named place
+Cost responsibility: Seller pays to named point, buyer pays from there
+Documents required: Commercial Invoice, Packing List, Export Declaration
+Textile usage: Used for air freight shipments — growing usage
+Note: Can use with LC — seller can request BL from carrier
+
+CPT — Carriage Paid To
+-----------------------
+Risk transfers: When goods handed to first carrier
+Cost responsibility: Seller pays freight to destination, buyer pays insurance
+Documents required: Commercial Invoice, Packing List, Freight Contract
+Textile usage: Moderate use for smaller shipments
+Note: Risk transfers earlier than cost responsibility
+
+CIP — Carriage and Insurance Paid To
+-------------------------------------
+Risk transfers: When goods handed to first carrier
+Cost responsibility: Seller pays freight AND insurance to destination
+Documents required: Commercial Invoice, Packing List, Insurance Certificate
+Textile usage: Used when buyer requires insurance coverage
+Note: Higher insurance minimum than CIF (Institute Cargo Clauses A)
+
+DAP — Delivered at Place
+------------------------
+Risk transfers: At named destination, before unloading
+Cost responsibility: Seller pays all except import duties
+Documents required: Commercial Invoice, Packing List, all freight docs
+Textile usage: Rare — used for duty-paid delivered orders
+Note: Buyer handles import clearance
+
+DPU — Delivered at Place Unloaded
+-----------------------------------
+Risk transfers: After unloading at destination
+Cost responsibility: Seller pays all including unloading, except import duties
+Documents required: Full document package
+Textile usage: Very rare in textile exports
+Note: Only term where seller responsible for unloading
+
+DDP — Delivered Duty Paid
+--------------------------
+Risk transfers: At destination, fully cleared
+Cost responsibility: Seller pays everything including import duties
+Documents required: Full package + import clearance documents
+Textile usage: Used for key account buyers (supermarkets) demanding DDP
+Note: Most risk for seller — requires knowledge of destination duty rates
+Pakistan textile DDP usage: Germany technical textiles, institutional buyers
+
+FAS — Free Alongside Ship
+--------------------------
+Risk transfers: When goods placed alongside vessel at port
+Cost responsibility: Seller pays to alongside ship, buyer pays loading + freight
+Documents required: Commercial Invoice, Packing List, Port Delivery Receipt
+Textile usage: Rare — mainly bulk/break-bulk cargo
+
+FOB — Free on Board
+--------------------
+Risk transfers: When goods loaded on vessel at port of shipment
+Cost responsibility: Seller pays to loading on ship, buyer pays freight + insurance
+Documents required: Commercial Invoice, Packing List, Bill of Lading, CO
+Textile usage: MOST COMMON for Pakistani textile exports
+Pakistan FOB ports: Port Qasim, Karachi Port
+LC documentation: FOB terms most LC-friendly
+Note: After goods on board — risk is buyer's
+
+CFR — Cost and Freight
+-----------------------
+Risk transfers: When goods loaded on vessel (same as FOB)
+Cost responsibility: Seller pays freight to destination port, buyer pays insurance
+Documents required: Commercial Invoice, Packing List, Bill of Lading, CO, Freight Invoice
+Textile usage: Common for UAE, Saudi Arabia, Australia shipments
+Note: Risk transfers at loading even though seller pays freight
+
+CIF — Cost Insurance and Freight
+----------------------------------
+Risk transfers: When goods loaded on vessel (same as FOB)
+Cost responsibility: Seller pays freight AND insurance to destination port
+Documents required: Commercial Invoice, Packing List, Bill of Lading, CO, Insurance Certificate
+Textile usage: Common for European and UK buyers preferring CIF
+Note: Seller arranges insurance but risk still transfers at loading
+Insurance minimum: 110% of CIF value — Institute Cargo Clauses C minimum
+
+INCOTERM DOCUMENT REQUIREMENTS SUMMARY
+---------------------------------------
+FOB: Commercial Invoice + Packing List + Bill of Lading + Certificate of Origin
+CIF: All FOB docs + Insurance Certificate + Freight Invoice
+CFR: All FOB docs + Freight Invoice
+CIP: All CPT docs + Insurance Certificate (Clause A)
+DDP: Full package + Import Clearance + Duty Payment Proof
