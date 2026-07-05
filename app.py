@@ -1,10 +1,8 @@
 import streamlit as st
 import os
 import json
-import chromadb
 import anthropic
 from datetime import datetime
-import uuid
 from jinja2 import Template
 from typing import TypedDict, List
 from langgraph.graph import StateGraph, END
@@ -22,78 +20,79 @@ kb_path = os.path.join(base, "knowledge_base")
 outputs_path = os.path.join(os.getcwd(), "outputs")
 os.makedirs(outputs_path, exist_ok=True)
 
-# ── API Key ── AZURE COMPATIBLE (set in Azure App Service > Configuration)
+# ── API Key ── AZURE COMPATIBLE
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# INITIALISE — cached so it runs once only
+# LIGHTWEIGHT KNOWLEDGE BASE — no ChromaDB
+# Simple keyword search over text files
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 @st.cache_resource
 def initialise():
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    chroma_client = chromadb.Client()
-    collection = chroma_client.get_or_create_collection(
-        name="tradebot_app_kb",
-        metadata={"hnsw:space": "cosine"}
-    )
-    if collection.count() == 0:
-        kb_files = [
-            "destination_country_requirements.txt",
-            "hs_codes_textile.txt",
-            "incoterms_guide.txt",
-            "lc_requirements.txt",
-            "pakistan_export_regulations.txt",
-            "trade_agreements.txt",
-            "certification_guide.txt",
-        ]
-        def chunk_text(text, chunk_size=500, overlap=50):
+
+    kb_files = {
+        "destination_country_requirements": "destination_country_requirements.txt",
+        "hs_codes_textile": "hs_codes_textile.txt",
+        "incoterms_guide": "incoterms_guide.txt",
+        "lc_requirements": "lc_requirements.txt",
+        "pakistan_export_regulations": "pakistan_export_regulations.txt",
+        "trade_agreements": "trade_agreements.txt",
+        "certification_guide": "certification_guide.txt",
+    }
+
+    knowledge_base = {}
+    for source, filename in kb_files.items():
+        filepath = os.path.join(kb_path, filename)
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                text = f.read()
+            # Split into chunks of ~500 words
             words = text.split()
             chunks = []
-            start = 0
-            while start < len(words):
-                chunks.append(" ".join(words[start:start+chunk_size]))
-                start += chunk_size - overlap
-            return chunks
+            for i in range(0, len(words), 450):
+                chunks.append(" ".join(words[i:i+500]))
+            knowledge_base[source] = chunks
+        except Exception as e:
+            knowledge_base[source] = [f"File not found: {filename}"]
 
-        for kb_file in kb_files:
-            with open(os.path.join(kb_path, kb_file), "r", encoding="utf-8") as f:
-                text = f.read()
-            chunks = chunk_text(text)
-            source_name = kb_file.replace(".txt", "")
-            collection.add(
-                documents=chunks,
-                metadatas=[{"source": source_name, "chunk_index": i} for i, _ in enumerate(chunks)],
-                ids=[f"app_{source_name}_chunk_{i}" for i, _ in enumerate(chunks)]
-            )
-    return client, collection
+    return client, knowledge_base
 
 
-client, collection = initialise()
+client, knowledge_base = initialise()
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # HELPER FUNCTIONS
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 def retrieve_knowledge(query, n_results=3, source_filter=None):
-    where_clause = {"source": source_filter} if source_filter else None
-    results = collection.query(
-        query_texts=[query],
-        n_results=n_results,
-        where=where_clause
-    )
-    retrieved = []
-    for i, doc in enumerate(results["documents"][0]):
-        retrieved.append({
-            "content": doc,
-            "source": results["metadatas"][0][i]["source"],
-        })
-    return retrieved
+    """Simple keyword-based retrieval — no vector DB needed."""
+    query_words = set(query.lower().split())
+    results = []
+
+    sources_to_search = [source_filter] if source_filter else list(knowledge_base.keys())
+
+    for source in sources_to_search:
+        if source not in knowledge_base:
+            continue
+        for chunk in knowledge_base[source]:
+            chunk_words = set(chunk.lower().split())
+            # Score = number of query words found in chunk
+            score = len(query_words.intersection(chunk_words))
+            if score > 0:
+                results.append({"content": chunk, "source": source, "score": score})
+
+    # Sort by score and return top n
+    results.sort(key=lambda x: x["score"], reverse=True)
+    return results[:n_results]
+
 
 def format_retrieved(results):
     context = ""
     for r in results:
         context += f"\n[SOURCE: {r['source']}]\n{r['content']}\n"
     return context
+
 
 def claude_call(prompt, max_tokens=1500):
     response = client.messages.create(
@@ -206,7 +205,7 @@ Return: {{"invoice_number":"INV-{datetime.now().strftime('%Y%m%d')}-XXXX","invoi
     pl_prompt = f"""Generate packing list data for textile export.
 Return ONLY valid JSON — no markdown, no backticks.
 EXPORTER: {json.dumps(data)} | INVOICE: {ci_data['invoice_number']}
-Return: {{"packing_list_number":"PL-{datetime.now().strftime('%Y%m%d')}-XXXX","date":"{datetime.now().strftime('%d-%b-%Y')}","invoice_number":"{ci_data['invoice_number']}","exporter_company":"{data['company']}","buyer_company":"{data['buyer']}","destination_country":"{data['destination']}","port_of_loading":"Port Qasim, Karachi, Pakistan","port_of_discharge":"main port of {data['destination']}","incoterm":"{data['incoterm']}","product_description":"formal description","hs_code":"{classification['hs_code_suggested']}","quantity":{data['quantity']},"unit":"{data['unit']}","num_cartons":"realistic number","qty_per_carton":"realistic","carton_length":"cm","carton_width":"cm","carton_height":"cm","net_weight_per_carton":"kg","gross_weight_per_carton":"kg","total_net_weight":"calculated","total_gross_weight":"calculated","marks_and_numbers":"{data['company']} / {data['buyer']} / MADE IN PAKISTAN"}}"""
+Return: {{"packing_list_number":"PL-{datetime.now().strftime('%Y%m%d')}-XXXX","date":"{datetime.now().strftime('%d-%b-%Y')}","invoice_number":"{ci_data['invoice_number']}","exporter_company":"{data['company']}","buyer_company":"{data['buyer']}","destination_country":"{data['destination']}","port_of_loading":"Port Qasim, Karachi, Pakistan","port_of_discharge":"main port of {data['destination']}","incoterm":"{data['incoterm']}","product_description":"formal description","hs_code":"{classification['hs_code_suggested']}","quantity":{data['quantity']},"unit":"{data['unit']}","num_cartons":"realistic number","qty_per_carton":"realistic","carton_length":"60","carton_width":"40","carton_height":"40","net_weight_per_carton":"25","gross_weight_per_carton":"27","total_net_weight":"calculated","total_gross_weight":"calculated","marks_and_numbers":"{data['company']} / {data['buyer']} / MADE IN PAKISTAN"}}"""
     pl_data = claude_call(pl_prompt, max_tokens=1000)
     return {"commercial_invoice_data": ci_data, "packing_list_data": pl_data}
 
@@ -220,14 +219,13 @@ Return ONLY valid JSON — no markdown, no backticks.
 PRODUCT: {data['product']} | COMPOSITION: {data['composition']}
 HS CODE: {classification['hs_code_suggested']} | DESTINATION: {data['destination']}
 FOB VALUE: {data['fob_value_usd']} | TRADE INFO: {trade_info[:500]}
-Return: {{"product":"{data['product']}","composition":"{data['composition']}","gsm":"{data.get('gsm','N/A')}","hs_code_6digit":"...","hs_code_destination":"...","hs_description":"...","destination_country":"{data['destination']}","mfn_duty_rate":"...","gsp_applicable":true,"gsp_scheme":"...","gsp_duty_rate":"...","duty_saving_usd":"...","trade_agreement_notes":"...","origin_criterion":"P or W","recommendations":[]}}"""
+Return: {{"product":"{data['product']}","composition":"{data['composition']}","gsm":"{data.get('gsm','N/A')}","hs_code_6digit":"...","hs_code_destination":"...","hs_description":"...","destination_country":"{data['destination']}","mfn_duty_rate":"...","gsp_applicable":true,"gsp_scheme":"...","gsp_duty_rate":"...","duty_saving_usd":"...","trade_agreement_notes":"...","origin_criterion":"P","recommendations":[]}}"""
     result = claude_call(prompt, max_tokens=1000)
     return {"hs_code_report": result}
 
 
 def node_compliance_checker(state):
     data = state["validated_input"]
-    doc_plan = state["document_plan"]
     hs_data = state["hs_code_report"]
     lc_context = format_retrieved(retrieve_knowledge(
         "LC discrepancies textile exports UCP 600",
@@ -251,7 +249,6 @@ Return: {{"compliance_status":"Pass/Partial/Fail","lc_risk_level":"Low/Medium/Hi
 
 def node_readiness_scorer(state):
     data = state["validated_input"]
-    doc_plan = state["document_plan"]
     hs_data = state["hs_code_report"]
     compliance = state["compliance_check"]
     prompt = f"""Score this textile export package 0-100.
@@ -501,7 +498,6 @@ with col_left:
         qty_pieces = st.number_input("Quantity (Pieces)", min_value=0, value=0)
 
     fob_value = st.number_input("FOB Value (USD)", min_value=0, value=50000)
-
     payment = st.selectbox("Payment Method", ["LC", "TT", "CAD", "DP"])
 
     st.markdown("**Certifications Available**")
@@ -549,7 +545,6 @@ with col_right:
             with st.spinner("🤖 TradeBot is generating your export package..."):
                 progress = st.progress(0)
                 status = st.empty()
-
                 status.text("Node 1/9 — Validating inputs...")
                 progress.progress(10)
 
@@ -575,7 +570,6 @@ with col_right:
 
             st.success("✅ Export package generated successfully!")
 
-            # ── Output tabs ──
             tab1, tab2, tab3 = st.tabs([
                 "📄 Document Package",
                 "📊 Export Readiness",
@@ -630,7 +624,6 @@ with col_right:
                     st.markdown("**✅ Complete**")
                     for item in rs.get('complete_items', []):
                         st.markdown(f"✅ {item}")
-
                 with col_missing:
                     st.markdown("**❌ Missing**")
                     for item in rs.get('missing_items', []):
