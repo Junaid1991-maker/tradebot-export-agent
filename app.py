@@ -96,7 +96,7 @@ def format_retrieved(results):
 
 def claude_call(prompt, max_tokens=1500):
     response = client.messages.create(
-        model="claude-haiku-4-5",
+        model="claude-haiku-4-5-20251001",
         max_tokens=max_tokens,
         messages=[{"role": "user", "content": prompt}]
     )
